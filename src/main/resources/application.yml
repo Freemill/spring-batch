@@ -29,5 +29,7 @@ spring:
       password:
       driver-class-name: com.mysql.jdbc.Driver
   batch:
+    job:
+      enabled: false
     jdbc:
       initialize-schema: always
